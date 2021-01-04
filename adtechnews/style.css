@@ -1,0 +1,203 @@
+/*
+    Theme Name: Ad Tech News
+    Author: Monabbor Hossen
+    Description: Ad Tech News Theme 
+    Version: 1.0.0
+    License: GNU General Public License v2 or later
+    License URI: http://www.gnu.org/licenses/gpl-2.0.html
+    Text Domain: mh_style
+    Tags: one-column, custom-colors, custom-menu
+*/
+.mh-navbar-style-1-body .custom-logo-link img {
+    width: 200px;
+    height: auto;
+}
+.mh-banner-style-1 {
+    width: 100%;
+    height: 420px;
+}
+
+.mh-banner-style-1-img {
+    width: 100%;
+    height: 420px !important;
+}
+
+.mh-categories {
+    padding: 3rem 0;
+    text-align: center;
+}
+
+.mh-categories a {
+    text-decoration: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.mh-categories a span {
+    border: 1px solid #f2f2f2;
+    padding: 10px 20px;
+    border-radius: 50px;
+    margin-left: 1.5rem;
+    background-color: #f2f2f2;
+    box-shadow: 0px 7px 11px #ddd;
+    color: gray;
+    transition: all .5s ease;
+}
+
+.mh-categories a span:hover {
+    background-color: #99ccff;
+    border-color: #99ccff;
+    color: #fff;
+    box-shadow: none;
+}
+
+.mh-post-area {
+    margin: 0 10%;
+}
+
+.mh-post-area .mh-grid {
+    column-count: 2;
+}
+
+.mh-post-area .mh-article {
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+    width: auto;
+    display: inline-block;
+}
+
+.mh-post-area article.mh-blog-post {
+    box-shadow: 0px 0px 15px #666;
+    border: 1px solid #ddd;
+    transition: box-shadow .7s ease;
+}
+
+.mh-post-area article.mh-blog-post:hover {
+    box-shadow: none;
+}
+
+.mh-post-area article.mh-blog-post .mh-post-info {
+    padding: 2rem;
+}
+
+.mh-post-area article.mh-blog-post .mh-post-info .mh-post-title {
+    padding: 1rem 0;
+}
+
+.mh-post-area article.mh-blog-post .mh-post-info hr {
+    margin-top: 3rem;
+    background-color: gray;
+}
+
+aside.mh-sidebar .mh-latest-post .mh-new-post {
+    border-bottom: 1px solid #ddd;
+    padding: 5% 0;
+    /* max-height: 9rem; */
+}
+
+aside.mh-sidebar .mh-latest-post .mh-new-post .mh-post-image,
+aside.mh-sidebar .mh-latest-post .mh-new-post .mh-post-title {
+    padding: 0 .6rem;
+}
+
+aside.mh-sidebar .mh-latest-post .mh-new-post .mh-post-title {
+    padding: .2rem;
+}
+
+aside.mh-sidebar .mh-latest-post .mh-new-post .mh-post-image img {
+    border-radius: 5rem;
+}
+
+aside.mh-sidebar .mh-search-area {
+    padding: 3rem 0;
+}
+
+aside.mh-sidebar .mh-search-area .mh-search .mh-form-group {
+    width: 237px;
+    box-shadow: 0px 0px 5px #000;
+}
+
+aside.mh-sidebar .mh-search-area .mh-search .mh-form-group .mh-input-control {
+    padding: 10px 0px 10px 5px;
+    font-size: 14px;
+    border: none;
+    outline: none;
+}
+
+aside.mh-sidebar .mh-search-area .mh-search .mh-form-group button {
+    outline: none;
+    border-radius: 0;
+    font-size: 17px;
+    transition: background .3s ease;
+}
+
+aside.mh-sidebar .mh-search-area .mh-search .mh-form-group button:hover {
+    background: #99ccff;
+}
+
+.mh-popular-tags .mh-tags a {
+    background: #f2f2f2;
+    padding: 7px 20px;
+    border-radius: 50px;
+    color: gray;
+    margin: 5px;
+    transition: background .5s ease;
+}
+
+.mh-popular-tags .mh-tags a:hover {
+    background: #99ccff;
+    color: #fff;
+}
+
+.mh-pagination {
+    background: #F2F2F2;
+    padding: .7rem .4rem;
+    display: inline-block;
+    margin: 2rem 0;
+    border-radius: 50px;
+}
+
+.mh-pagination a {
+    padding: 5px 10px;
+    color: gray;
+    transition: background .5s ease;
+    border-radius: 50px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.mh-pagination a:hover {
+    background: #99ccff;
+    color: #fff;
+}
+
+footer.mh-footer-area {
+    background: #333;
+}
+
+footer.mh-footer-area .mh-row {
+    padding: 5% 0;
+}
+
+footer.mh-footer-area p.mh-para,
+footer.mh-footer-area .mh-social-media {
+    padding-left: 1.5rem;
+    padding-top: .9rem;
+}
+
+footer.mh-footer-area .mh-recent-post .mh-column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0;
+}
+
+footer.mh-footer-area .mh-recent-post .mh-posts {
+    padding-top: .9rem;
+}
+
+@media (max-width: 576px){
+    .mh-footer-area .mh-row section{
+        padding-top: 5%;
+    }
+}
